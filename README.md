@@ -19,6 +19,12 @@ Add to your MCP client config (Claude Code, Cursor, Windsurf, etc.):
 }
 ```
 
+For Codex:
+
+```sh
+codex mcp add google-workspace -- npx -y github:wedow/workspace-mcp
+```
+
 On first run, it clones and builds the upstream extension (~30s). Subsequent starts are instant.
 
 ## OAuth login
